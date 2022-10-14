@@ -1,6 +1,7 @@
 #include <stdio.h>
+
 /**
- * main - Entrypoint
+ * main - Entry
  *
  * Return: returns 0
  */
@@ -8,17 +9,17 @@
 int main(void)
 
 {
-char alphabet;
+char alphabets;
 
-for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
+for (alphabets = 'a'; alphabets <='z'; alphabets++)
 {
-if (alphabet == 'q')
+if (alphabets == 'q')
 continue;
 
-else if (alphabet == 'e')
+else if (alphabets =='e')
 continue;
 
-putchar(alphabet);
+putchar(alphabets);
 }
 
 putchar('\n');
@@ -26,3 +27,4 @@ putchar('\n');
 return (0);
 
 }
+
