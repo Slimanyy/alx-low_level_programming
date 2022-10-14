@@ -5,8 +5,9 @@
 /*
  * main - Entry point
  *
- * Return -returns 0 when program is completed
+ * Return: returns 0 when program is completed
  */
+
 int main(void)
 {
 int n;
