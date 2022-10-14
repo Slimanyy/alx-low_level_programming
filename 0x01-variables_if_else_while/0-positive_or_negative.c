@@ -2,8 +2,8 @@
 #include <stdio.h>
 #include <time.h>
 
-/* main -Entry point of code
- *
+/*
+ * main -Entry point
  * Return -returns 0
  */
 int main(void)
