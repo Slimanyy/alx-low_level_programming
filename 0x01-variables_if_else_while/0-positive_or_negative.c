@@ -2,10 +2,10 @@
 #include <time.h>
 #include <stdio.h>
 
-/*
+/**
  * main - Entry point
  *
- * Return: returns 0 when program is completed
+ * Return: Always 0 (Success/correct)
  */
 
 int main(void)
