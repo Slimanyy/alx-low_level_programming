@@ -1,1 +1,1 @@
-this a readme for my folder
+0x07. C - Even more pointers, arrays and strings
