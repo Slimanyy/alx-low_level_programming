@@ -2,9 +2,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * malloc_checked - allocates memory
- * @b: unsigned int
- * Return: pointer to the new memory
+ * malloc_checked - allocates memory variable
+ * @b: unsigned integer
+ * Return: pointer to the new  allocated memory
  */
 void *malloc_checked(unsigned int b)
 {
