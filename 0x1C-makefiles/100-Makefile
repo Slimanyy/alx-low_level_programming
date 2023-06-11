@@ -1,25 +1,19 @@
-# CC specifies which compiler we're using
 CC = gcc
-
-# SRC specifies which files to compile as part of the project
-SRC = main.c holberton.c
-
-# OBJ specifies objects files' name
-OBJ = ${SRC:.c=.o}
-
-# OBJ specifies the name of our executable
-NAME = holberton
-
+SRC = main.c school.c
+OBJ = $(SRC:.c=.o)
+NAME = school
 CFLAGS = -Wall -Werror -Wextra -pedantic
+.PHONY:all clean oclean fclean re
 
-.PHONY: all clean fclean oclean re
-
-# This is the target that compiles our executable
 all: m.h $(OBJ)
 	$(CC) $(OBJ) -o $(NAME)
+
 clean:
 	$(RM) *~ $(NAME)
-oclean:
+
+oclean: 
 	$(RM) $(OBJ)
+
 fclean: clean oclean
+
 re: oclean all
